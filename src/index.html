@@ -1,69 +1,117 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing page - Caroline Sada</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div style="height: 80%;" class="logo">
-            <img style="height: 100%;" src="./assets/img/logo.svg" alt="Logo de la influencer">
-        </div>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Curso</a>
-            <a href="#">Blog</a>
-            <a href="#">Contacto</a>
+    <title>Landing page - Caroline Sada</title>
+  </head>
+  <body>
+
+    <header class="container-fluid" style="padding-left: 0; padding-right: 0;">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo.svg" alt="Logo" style="width: 60px;">
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Curso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="hero" style="height: 50%;">
-            <!--<img src="imagen-fondo.jpg" alt="Imagen de fondo">-->
-            <h1>Aprende de finanzas con la ayuda de una experta</h1>
-            <img style="height: 50%;" src="https://media.gettyimages.com/id/1355515310/es/foto/mujer-de-negocios-exitosa-usando-una-tableta-en-la-oficina.jpg?s=2048x2048&w=gi&k=20&c=RrTB8A_qBRNuB97aihz3wzrScOrcDokVpBSycFhML6g=" alt="">
-        </section>
-        <section class="principal">
-            <div class="informacion-influencer">
-                <h2>Conoce a Caroline Sada</h2>
-                <p>Soy una analista financiera con más de 3 años de experiencia. He ayudado a cientos de personas a alcanzar sus objetivos financieros.</p>
-                <p>Mi pasión es ayudar a las personas a tomar el control de su dinero y construir un futuro mejor.</p>
+        <div class="container-fluid pt-3 pt-3">
+            <h3 class="text-center">Aprende de finanzas con la ayuda de una experta</h3>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <img src="https://media.gettyimages.com/id/1355515310/es/foto/mujer-de-negocios-exitosa-usando-una-tableta-en-la-oficina.jpg?s=2048x2048&w=gi&k=20&c=RrTB8A_qBRNuB97aihz3wzrScOrcDokVpBSycFhML6g=" alt="" class="rounded-circle" style="width:100%">
+                </div>
+                <div class="col"></div>
             </div>
-            <div class="informacion-curso">
-                <h2>Curso online: Finanzas para emprendedores</h2>
-                <p>En este curso aprenderás:</p>
-                <ul>
-                    <li>Cómo llevar tu negocio de idea a realidad.</li>
-                    <li>Cómo crear un presupuesto y controlarlo.</li>
-                    <li>Cómo invertir tu dinero de forma inteligente.</li>
-                    <li>Y mucho más...</li>
-                </ul>
-                <p><a href="#">Más información sobre el curso</a></p>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <p><b>Conoce a Caroline Sada</b></p>
+                </div>
+                <div class="col">
+                    <p><b>Curso online: Finanzas para emprendedores</b></p>
+                </div>
             </div>
-            <div class="testimonios">
-                <h2>Lo que dicen mis alumnos</h2>
-                <p>"Este curso me ha cambiado la vida. Inicié mi primer negocio y soy más exitoso que nunca." - Teresa G.</p>
-                <p>"Caroline es una excelente profesora. Explica los conceptos financieros de forma clara y sencilla." - Arturo R.</p>
+            <div class="row">
+                <div class="col">
+                    <p>Soy una analista financiera con más de 3 años de experiencia. He ayudado a cientos de personas a alcanzar sus objetivos financieros.</p>
+                    <p>Mi pasión es ayudar a las personas a tomar el control de su dinero y construir un futuro mejor.</p>
+                </div>
+                <div class="col">
+                    <p>En este curso aprenderás:</p>
+                    <ul>
+                        <li>Cómo llevar tu negocio de idea a realidad.</li>
+                        <li>Cómo crear un presupuesto y controlarlo.</li>
+                        <li>Cómo invertir tu dinero de forma inteligente.</li>
+                        <li>Y mucho más...</li>
+                    </ul>
+                    <p><a href="#">Más información sobre el curso</a></p>
+                </div>
             </div>
-            <div class="formulario">
-                <h2>¿Interesado en mi curso?</h2>
-                <p>Deja tu nombre y correo electrónico para recibir más información sobre el curso.</p>
-                <form action="#">
-                    <input type="text" name="nombre" placeholder="Nombre">
-                    <input type="email" name="correo" placeholder="Correo electrónico">
-                    <button type="submit">Enviar</button>
-                </form>
+        </div>
+        <div class="container-fluid">
+            <h4>Testimonios</h4>
+            <p>"Este curso me ha cambiado la vida. Inicié mi primer negocio y soy más exitoso que nunca." - Teresa G.</p>
+            <p>"Caroline es una excelente profesora. Explica los conceptos financieros de forma clara y sencilla." - Arturo R.</p>
+        </div>
+        <div class="container-fluid pb-3">
+            <h4 class="text-center">
+                <b>¿Interesado en mi curso?</b>
+            </h4>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div id="formulario" class="col-sm-10 pb-2 pt-2">
+                    <form action="" class="was-validated" novalidate>
+                        <div class="mb-3 mt-3">
+                            <label for="nombre" class="form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" name="nombre" required>    
+                            <div class="invalid-feedback">Por favor ingrese su nombre.</div>
+                        </div>
+                        <!--
+                        <div class="mb-3 mt-3">
+                            <label for="telefono" class="form-label">Teléfono:</label>
+                            <input type="text" class="form-control" id="telefono" placeholder="Ingrese su número de teléfono" name="telefono">
+                        </div>
+                        -->
+                        <div class="mb-3 mt-3">
+                            <label for="email" class="form-label">Correo electrónico:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingrese su dirección de correo electrónico" name="email" required>
+                            <div class="invalid-feedback">Por favor ingrese un correo electrónico válido</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-sm-1"></div>
             </div>
-        </section>
+        </div>
     </main>
     <footer>
-        <p>Copyright &copy; Caroline Sada</p>
-        <ul>
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-        </ul>
+        <div class="container-fluid pt-2 pb-2">
+            <p class="text-center">Copyright &copy; Caroline Sada</p>
+        </div>
     </footer>
-</body>
+  </body>
 </html>
