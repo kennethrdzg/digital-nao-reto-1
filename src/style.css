@@ -1,120 +1,24 @@
-html {
-    height: 100%;
-}
-
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+html{
     height: 100%;
 }
 
 header {
     background-color: #ffb775;
-    padding: 10px;
-    height: 15%;
 }
 
-.logo {
-    float: left;
-}
-
-nav {
-    float: right;
-    height: 100%;
-    vertical-align: middle;
-}
-
-nav a {
-    margin-right: 10px;
-    height: 100%;
-}
-
-main{
-    height: 100%;
+main {
     background-color: #ffe3af;
-    padding-top: 5%;
-    padding-bottom: 1%;
-}
-
-.hero {
-    background-size: cover;
-    height: 40%;
-    text-align: center;
-}
-
-.hero h1 {
-    margin: 0;
-}
-
-.principal {
-    padding: 20px;
-}
-
-.informacion-influencer {
-    float: left;
-    width: 50%;
-}
-
-.informacion-curso {
-    float: right;
-    width: 50%;
-}
-
-.testimonios {
-    clear: both;
-    margin-top: 20px;
-}
-
-.testimonios p {
-    margin-bottom: 10px;
-}
-
-.formulario {
-    clear: both;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.formulario p {
-    margin-bottom: 10px;
-}
-
-.formulario form {
-    display: inline-block;
-}
-
-.formulario input {
-    margin-right: 10px;
-    padding: 5px;
-}
-
-.formulario button {
-    padding: 5px 10px;
-    background-color: #ff9710;
-    color: #fff;
 }
 
 footer {
     background-color: #ffb775;
-    padding: 10px;
-    text-align: center;
 }
 
-footer p {
-    margin-bottom: 5px;
+#formulario {
+    background-color: #ff9a3b;
 }
 
-footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-footer li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-footer a {
-    color: #000;
+#formulario button {
+    background-color: #ff7c10;
+    border: 0px;
 }
